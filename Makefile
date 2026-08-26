@@ -15,6 +15,6 @@ PKG_MNGR := $(shell \
 help:
         @printf "\n%s\n" "List of targets:"
         @printf "%s\n\n" "---------------------"
-        @printf "%s\n" "zabbix_server_install - Install the Zabbix Server"
+        @printf "%s\n" "zabbix_server_install - Install the Zabbix Server on $(OS)"
 
 include Zabbix/zabbix_server.mk
