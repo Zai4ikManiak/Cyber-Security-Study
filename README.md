@@ -11,6 +11,6 @@ config:
             .mk: 🔨
 ---
 treeView-beta
-    source/ ::highlight
+    source/ :::highlight
         Variables.mk
 ```
