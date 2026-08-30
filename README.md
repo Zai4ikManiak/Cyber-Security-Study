@@ -12,7 +12,6 @@ treeView-beta
     source/ 
         Variables.mk
         MySQL.mk
-        Zabbix_server.mk 
-        Zabbix_proxy.mk 
-        Zabbix_agent2.mk 
+        Zabbix_server.mk ## Deploy Zabbix Server on localhost
+        Zabbix_agent2.mk ## Deploy Zabbix Agent2 on localhost
 ```
