@@ -12,4 +12,5 @@ config:
 ---
 treeView-beta
     source/ ::highlight
+        Variables.mk
 ```
