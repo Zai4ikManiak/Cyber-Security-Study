@@ -10,5 +10,5 @@ treeView-beta
     📄 README.txt
     📁 source/ :::highlight
         🔨 Variables.mk
-        🔨 Zabbix_server.mk
+        🔨 Zabbix_server.mk ## Automatically build the Zabbix Server 7.4
 ```
