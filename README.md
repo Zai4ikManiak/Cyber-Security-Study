@@ -8,6 +8,7 @@ config:
 ---
 treeView-beta
     📄 README.txt
+    🔨 Makefile
     📁 source/ 
         🔨 Variables.mk
         🔨 MySQL.mk ## Download, and deploy MySQL server on localhost.
