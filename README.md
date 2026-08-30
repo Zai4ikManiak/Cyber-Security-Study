@@ -3,16 +3,16 @@
 ---
 config:
     treeView:
-        showIcons: false
+        showIcons: true
         defaultIconPack: material-icon-theme
 ---
 treeView-beta
-    🗎 README.txt
-    🔨 Makefile
-    📁 source/ 
-        🔨 Variables.mk
-        🔨 MySQL.mk ## Download, and deploy MySQL server on localhost.
-        🔨 Zabbix_server.mk ## Download, setup, and deploy Zabbix Server on localhost.
-        🔨 Zabbix_proxy.mk ## Download, setup, and deploy Zabbix Proxy on localhost.
-        🔨 Zabbix_agent2.mk ## Download, setup, and deploy Zabbix Agent2 on localhost.
+    README.txt
+    Makefile
+    source/ 
+        Variables.mk
+        MySQL.mk
+        Zabbix_server.mk 
+        Zabbix_proxy.mk 
+        Zabbix_agent2.mk 
 ```
