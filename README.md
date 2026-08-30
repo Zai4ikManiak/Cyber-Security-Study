@@ -7,7 +7,7 @@ config:
         defaultIconPack: material-icon-theme
 ---
 treeView-beta
-    📄 README.txt
+    🗎 README.txt
     🔨 Makefile
     📁 source/ 
         🔨 Variables.mk
