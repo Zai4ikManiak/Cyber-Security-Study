@@ -8,9 +8,9 @@ config:
 ---
 treeView-beta
     📄 README.txt
-    📁 source/ :::highlight
+    📁 source/ 
         🔨 Variables.mk
-        🔨 Zabbix_server.mk
+        🔨 Zabbix_server.mk :::highlight
             ⚫ ## Download and build Zabbix Server.
             ⚫ ## Create zabbix_server system user and group.
             ⚫ ## Setup Mysql Database for Zabbix Server.
