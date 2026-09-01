@@ -4,7 +4,7 @@
 config:
     treeView:
         showIcons: true
-        #defaultIconPack: material-icon-theme
+        defaultIconPack: material-icon-theme
 ---
 treeView-beta
     README.txt
