@@ -7,7 +7,7 @@ config:
         defaultIconPack: material-icon-theme
 ---
 treeView-beta
-    README.md
+    README.md icon(logos:react)
     Makefile
     Make-Files/
     Zabbix/
