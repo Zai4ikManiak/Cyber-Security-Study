@@ -7,11 +7,11 @@ config:
         defaultIconPack: material-icon-theme
 ---
 treeView-beta
-    README.txt
+    README.md
     Makefile
-    source/ 
-        Variables.mk
-        MySQL.mk
-        Zabbix_server.mk ## Deploy Zabbix Server on localhost
-        Zabbix_agent2.mk ## Deploy Zabbix Agent2 on localhost
+    Make-Files/
+    Zabbix/
+        README.md
+    Ansible/
+        README.md
 ```
