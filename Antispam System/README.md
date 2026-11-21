@@ -14,6 +14,8 @@ flowchart LR
         ovs-port["OVS Port (tap_interface)"]
         ovs-eval["OpenFlow rules"]
         ovs-forward["OFPP_LOCAL forward to host IP stack"]
+    
+        ovs-port --> ovs-eval --> ovs-forward
     end
 
     subgraph firewall-out["NFTables Network"]
