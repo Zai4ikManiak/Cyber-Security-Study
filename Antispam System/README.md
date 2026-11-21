@@ -4,7 +4,7 @@
 ---
 title: Network Flow
 ---
-flowchart LR
+flowchart TB
     
     tap_int["Instace tap_interface"]@{ shape: in-out }
 
