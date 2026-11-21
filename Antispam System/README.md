@@ -6,8 +6,6 @@ title: Network Flow
 ---
 flowchart LR
     
-    tap_int["Instace tap_interface"]@{ shape: in-out }
-
     subgraph libvirt["OVS-Bridge Network"]
 
     end
