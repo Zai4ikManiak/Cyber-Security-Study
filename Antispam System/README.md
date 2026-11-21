@@ -4,7 +4,7 @@
 ---
 title: Network Flow
 ---
-flowchart TB
+flowchart LR
     
     tap_int["Instace tap_interface"]@{ shape: in-out }
 
@@ -23,5 +23,4 @@ flowchart TB
     firewall --> net
     firewall --> dpi
     firewall --> em 
-    em --> tap_int
 ```
