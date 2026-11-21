@@ -18,7 +18,7 @@ flowchart LR
         end
 
         egress["Egress"]@{ shape: lean-r}
-    end
 
-    firewall-in --> libvirt --> firewall-out
+        ingress --> libvirt --> egress
+    end
 ```
