@@ -22,5 +22,6 @@ flowchart LR
     output_br --> post_ro_br --> egress
     firewall --> net
     firewall --> dpi
-    firewall --> em --> tap_int
+    firewall --> em 
+    em --> tap_int
 ```
