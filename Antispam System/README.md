@@ -5,7 +5,7 @@
 title: Network Flow
 ---
 flowchart LR
-    tap_int["Instace tap_interface"]@{ shape: input }
+    tap_int["Instace tap_interface"]@{ shape: sl-rect }
 
     subgraph firewall["NFTables Ruleset"]
         output_br["Output Bridge Interface"]@{ shape: decision }
