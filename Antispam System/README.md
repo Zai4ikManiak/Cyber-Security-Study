@@ -6,19 +6,13 @@ title: Network Flow
 ---
 flowchart LR
     
-    subgraph firewall["NFTables Network"]
-        ingress["Ingress"]@{ shape: lean-r }
-
-        subgraph libvirt["OVS-Bridge Network"]
-            ovs-port["OVS Port (tap_interface)"]
-            ovs-eval["OpenFlow rules"]
-            ovs-forward["OFPP_LOCAL forward to host IP stack"]
-    
-            ovs-port --> ovs-eval --> ovs-forward
-        end
-
-        egress["Egress"]@{ shape: lean-r}
-
-        ingress --> libvirt --> egress
+    subgraph hyper["Hypervisor"]
+        vm_1["VM 1"]@{ shape: lean-r }
+        vm_2["VM 2"]@{ shape: lean-r }
+        vm_DPI["VM DPI"]@{ shape: lean-r }
+        
+        vm_1 --> ovs["OvSwitch"]
+        vm_2 --> ovs
+        vm_DPI --> ovs
     end
 ```
