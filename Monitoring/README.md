@@ -14,5 +14,7 @@ flowchart LR
         vm_1 --> ovs["OvSwitch"]
         vm_2 --> ovs
         vm_DPI --> ovs
+
+        ovs --> fire["Firewall"]
     end
 ```
